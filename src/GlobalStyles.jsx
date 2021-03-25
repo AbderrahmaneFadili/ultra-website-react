@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
 /* import fonts : Roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+/* Reset Style */
  *,*::after,*::before{
      padding:0;
      margin:0;
@@ -13,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
      font-family:'Roboto', sans-serif;
   }
 
+/* Adding Smooth Scroll the HTML  */
+   html{
+     scroll-behavior:smooth
+   }
 `;
 
 //Global Container Style
@@ -39,9 +44,9 @@ export const Button = styled.button`
   cursor: pointer;
   outline: 0;
   border: 0;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
-    transition: all 0.3s ease-in-out;
     background: #fff;
     background-color: ${({ primary }) => (primary ? "#0467FB" : "#4B59F7")};
   }

@@ -20,6 +20,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 80px;
 `;
 
@@ -41,12 +42,10 @@ export const NavIcon = styled(FaMagento)`
 //Toggle Menu
 export const ToggleMenu = styled.div`
   display: block;
-  position: absolute;
-  top: 50%;
-  right: 2rem;
-  transform: translateY(-50%);
   font-size: 1.8rem;
   cursor: pointer;
+  position: relative;
+  top: 4px;
 
   @media screen and (min-width: 960px) {
     display: none;
@@ -83,7 +82,7 @@ export const NavItem = styled.li`
   height: 80px;
   border-bottom: 4px solid transparent;
   width: 100%;
-  align-self: center;
+  margin-right: 1rem;
 
   &:hover {
     border-bottom-color: #4b59f7;

@@ -1,10 +1,12 @@
 import React from "react";
-
+import { sectionOne, sectionThree } from "./Data";
+import { InfoSection } from "../../components";
 const SignUp = () => {
   return (
-    <div>
-      <h1>SignUp</h1>
-    </div>
+    <>
+      <InfoSection {...sectionOne} />
+      <InfoSection {...sectionThree} />
+    </>
   );
 };
 

@@ -13,7 +13,7 @@ export const sectionOne = {
   imgStart: "",
   img: require("../../images/svg-1.svg").default,
   alt: "Credit Card",
-  start: "",
+  start: false,
 };
 
 //info section one
@@ -31,7 +31,7 @@ export const sectionTwo = {
   imgStart: "",
   img: require("../../images/svg-2.svg").default,
   alt: "Vault",
-  start: "",
+  start: false,
 };
 
 //info section one
@@ -68,5 +68,5 @@ export const sectionFour = {
   imgStart: "start",
   img: require("../../images/svg-3.svg").default,
   alt: "Vault",
-  start: "true",
+  start: true,
 };
