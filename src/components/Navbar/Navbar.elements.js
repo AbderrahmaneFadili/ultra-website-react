@@ -26,7 +26,7 @@ export const NavbarContainer = styled(Container)`
 `;
 
 //Nav Logo
-export const NavLogo = `
+export const NavLogo = styled(Link)`
   color: #fff;
   cursor: pointer;
   text-decoration: none;
