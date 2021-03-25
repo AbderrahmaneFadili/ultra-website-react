@@ -5,15 +5,16 @@ import { Container } from "../../GlobalStyles";
 
 //Nav
 export const Nav = styled.nav`
-  background-color: #101522;
+  background-color: #eb4934;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 999;
+  width: 100%;
 `;
 
 //Navbar Container
@@ -25,7 +26,7 @@ export const NavbarContainer = styled(Container)`
 `;
 
 //Nav Logo
-export const NavLogo = styled(Link)`
+export const NavLogo = `
   color: #fff;
   cursor: pointer;
   text-decoration: none;
@@ -57,7 +58,7 @@ export const NavMenu = styled.ul`
   display: flex;
   list-style: none;
   flex-direction: column;
-  background: #101522;
+  background: #eb4934;
   height: 90vh;
   width: 100%;
   position: fixed;

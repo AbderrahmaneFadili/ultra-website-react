@@ -9,7 +9,7 @@ export const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #101522;
+  background-color: #eb4934;
 `;
 
 //Footer Subscription
